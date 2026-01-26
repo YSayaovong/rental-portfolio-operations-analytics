@@ -1,4 +1,4 @@
-# Retail Sales Forecasting & KPI Analytics
+# Rental Portfolio Analytics Platform
 
 This project applies data analytics and machine learning techniques to forecast retail sales and generate KPI insights. It highlights skills in data preprocessing, exploratory analysis, feature engineering, and predictive modeling.
 
