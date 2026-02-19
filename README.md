@@ -37,10 +37,10 @@ CSV Data Sources → PostgreSQL (Dockerized) → Power BI Semantic Model → Exe
 
 ## 3. Dataset (CSV Layer)
 
-1. Expenses_Table.csv
-2. Invoices_Table.csv
-3. Payments_Table.csv
-4. Tenants_Table.csv
+1. Expenses_Table.csv  
+2. Invoices_Table.csv  
+3. Payments_Table.csv  
+4. Tenants_Table.csv  
 
 ## 4. SQL Layer
 
@@ -49,33 +49,36 @@ Includes schema creation, KPI views, payment timeliness logic, and monthly rollu
 ## 5. Power BI Layer
 
 Includes:
-- DAX measures
-- Date intelligence
-- Revenue, expenses, payment trends
-- Drilldowns by category and time
+- DAX measures  
+- Date intelligence  
+- Revenue, expenses, payment trends  
+- Drilldowns by category and time  
+
+### **Dashboard Preview**
+![Financial Dashboard](https://github.com/YSayaovong/rental-portfolio-operations-analytics/blob/main/assets/financial%20dashboard.PNG)
 
 ## 6. Docker Environment
 
-docker-compose.yml sets up a reproducible PostgreSQL environment for running all SQL files.
+`docker-compose.yml` sets up a reproducible PostgreSQL environment for running all SQL files.
 
 ## 7. Key Insights (Examples)
 
-- Identified high variance in recurring expenses
-- Detected late payment patterns using Days Late KPIs
-- Stabilized month-to-month cash flow reporting with SQL views
-- Built category-level cost visibility
+- Identified high variance in recurring expenses  
+- Detected late payment patterns using Days Late KPIs  
+- Stabilized month-to-month cash flow reporting with SQL views  
+- Built category-level cost visibility  
 
 ## 8. Interview Talking Points
 
-- SQL data modeling for operations
-- KPI definitions for performance management
-- Power BI semantic modeling & DAX
-- How rental data maps 1:1 to manufacturing/operations analytics
+- SQL data modeling for operations  
+- KPI definitions for performance management  
+- Power BI semantic modeling & DAX  
+- How rental data maps 1:1 to manufacturing/operations analytics  
 
 ## 9. How to Run
 
-1. Load CSVs into Postgres
-2. Run postgres_build.sql
-3. Run rental_financial_analytics.sql
-4. Open Power BI → Refresh model → Explore dashboards
+1. Load CSVs into Postgres  
+2. Run `postgres_build.sql`  
+3. Run `rental_financial_analytics.sql`  
+4. Open Power BI → Refresh model → Explore dashboards  
 
