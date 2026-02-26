@@ -1,4 +1,4 @@
-# Rental Portfolio Operations Analytics
+# Rental Portfolio Analytics
 
 ## 1. Project Background
 
